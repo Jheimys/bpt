@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 10px;
+  letter-spacing: 3.5px;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: "Roboto";
+  margin-top: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+  font-family: "Roboto";
+}
+
+
+.socialLink {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.socialLink li {
+  margin: 0.6px;
+}
+
+.socialLink li:last-child {
+  margin-bottom: 50px;
+}
+
+.socialLink li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  height: auto;
+}
+
+
+.socialLink li a span {
+  color: black;
+  font-weight: bold;
+  flex: 1; 
+  text-align: center; 
+}
+
+.icon{
+  margin-left: 15px;
+}
+.icon-black {
+  color: #000; 
+}
+
+
+.icon-whatsapp {
+  color: #25D366;
+}
+
+.icon-instagram {
+  color: #E4405F; 
+}
+
+.icon-map {
+  color: #DB4437;  
+}
